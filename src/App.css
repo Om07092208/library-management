@@ -1,0 +1,57 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(to right, #f0f2f5, #c9d6ff);
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 8px;
+  flex: 1;
+}
+
+.form button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.book-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.remove {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
